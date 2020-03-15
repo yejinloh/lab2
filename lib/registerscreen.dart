@@ -41,7 +41,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
 
             TextField(
-              style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
+              style: TextStyle(color: Colors.white,
+                fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _name,
               decoration: InputDecoration(
                 hintText: "Username",
@@ -59,7 +60,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
 
             TextField(
-              style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
+              style: TextStyle(color: Colors.white,
+                fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _email,
               decoration: InputDecoration(
                 hintText: "Email (Ex: example12@gmail.com)",
@@ -77,7 +79,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
 
             TextField(
-              style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
+              style: TextStyle(color: Colors.white,
+                fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _phone,
               decoration: InputDecoration(
                 hintText: "Phone (Ex: 0129876543)",
@@ -95,7 +98,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
 
             TextField(
-              style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
+              style: TextStyle(color: Colors.white,
+              fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _password,
               decoration: InputDecoration(
                 hintText: "Password",
