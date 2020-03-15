@@ -47,11 +47,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+   assets:
+     - assets/images/
   #  - images/a_dot_ham.jpeg
-  assets:
-  - assets/images/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -72,15 +71,15 @@ flutter:
   #         style: italic 
    - family: Do Hyeon
      fonts:
-     - asset: fonts/DoHyeon-Regular.ttf
+        - asset: fonts/DoHyeon-Regular.ttf
 
    - family: Jockey One
      fonts:
-     - asset: fonts/JockeyOne-Regular.ttf
+        - asset: fonts/JockeyOne-Regular.ttf
 
    - family: Graduate
      fonts:
-     - asset: fonts/Graduate-Regular.ttf
+        - asset: fonts/Graduate-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
