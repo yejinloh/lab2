@@ -39,6 +39,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     height: 100.0, width: 200.0),
               ),
             ),
+
             TextField(
               style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _name,
@@ -56,6 +57,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
               ),
             ),
+
             TextField(
               style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _email,
@@ -73,6 +75,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
               ),
             ),
+
             TextField(
               style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _phone,
@@ -90,6 +93,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
               ),
             ),
+
             TextField(
               style: TextStyle(fontFamily: 'Do Hyeon', fontSize: 20),
               controller: _password,
@@ -111,6 +115,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             new FlatButton(
                 onPressed: _toggle,
                 child: new Text(_obscureText ? "Show" : "Hide")),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
@@ -290,7 +295,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        // return object of type Dialog
         return AlertDialog(
           title: new Text("EULA"),
           content: new Container(
@@ -305,12 +309,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         text: TextSpan(
                             style: TextStyle(
                               color: Colors.black,
-                              //fontWeight: FontWeight.w500,
                               fontSize: 12.0,
                             ),
                             text:
                                 "This End-User License Agreement is a legal agreement between you and Slumberjer This EULA agreement governs your acquisition and use of our MY.GROCERY software (Software) directly from Slumberjer or indirectly through a Slumberjer authorized reseller or distributor (a Reseller).Please read this EULA agreement carefully before completing the installation process and using the MY.GROCERY software. It provides a license to use the MY.GROCERY software and contains warranty information and liability disclaimers. If you register for a free trial of the MY.GROCERY software, this EULA agreement will also govern that trial. By clicking accept or installing and/or using the MY.GROCERY software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement. If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.This EULA agreement shall apply only to the Software supplied by Slumberjer herewith regardless of whether other software is referred to or described herein. The terms also apply to any Slumberjer updates, supplements, Internet-based services, and support services for the Software, unless other terms accompany those items on delivery. If so, those terms apply. This EULA was created by EULA Template for MY.GROCERY. Slumberjer shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of Slumberjer. Slumberjer reserves the right to grant licences to use the Software to third parties"
-                            //children: getSpan(),
                             )),
                   ),
                 )
@@ -318,7 +320,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
           ),
           actions: <Widget>[
-            // usually buttons at the bottom of the dialog
             new FlatButton(
               child: new Text("Close"),
               onPressed: () {
